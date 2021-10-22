@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "rattanak-chuon/unit-conversions",
+    "description": "Unit conversions",
     "keywords": [
-        ":vendor_name",
-        ":package_slug"
+        "rattanak.chuon",
+        "unit-conversions"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/rattanak-chuon/unit-conversions",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Rattanak Chuon",
+            "email": "rattanak.chuon@codingate.com",
             "role": "Developer"
         }
     ],
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src"
+            "Rattanak\\UnitConversions\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Rattanak\\UnitConversions\\Tests\\": "tests"
         }
     },
     "scripts": {
